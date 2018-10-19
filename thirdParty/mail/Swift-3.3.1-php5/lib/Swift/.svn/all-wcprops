@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Iterator.php
+END
+ConnectionBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/ConnectionBase.php
+END
+CacheFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/CacheFactory.php
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/ClassLoader.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Exception.php
+END
+FileException.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/FileException.php
+END
+Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Connection.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Cache.php
+END
+Events.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events.php
+END
+Authenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator.php
+END
+BatchMailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/BatchMailer.php
+END
+RecipientList.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/RecipientList.php
+END
+ConnectionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/ConnectionException.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/File.php
+END
+Log.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Log.php
+END
+BadResponseException.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/BadResponseException.php
+END
+LogContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/LogContainer.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message.php
+END
+Address.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Address.php
+END
+AddressContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/AddressContainer.php
+END

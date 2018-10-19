@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Index/SegmentWriter
+END
+DocumentWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Index/SegmentWriter/DocumentWriter.php
+END
+StreamWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Index/SegmentWriter/StreamWriter.php
+END

@@ -1,0 +1,88 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Soap
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Wsdl.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+3452fff5864f825e0e41fc60557bd210
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Client.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+0d425ac76f4694e64f06be3efa1f798a
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Server
+dir
+
+AutoDiscover
+dir
+
+Wsdl
+dir
+
+Server.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+340e7ac40bf0e75416af3b0955ce86ff
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+AutoDiscover.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+2d8a12151831951d1ff639f09f868350
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Client
+dir
+

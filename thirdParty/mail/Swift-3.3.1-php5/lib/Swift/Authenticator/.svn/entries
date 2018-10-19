@@ -1,0 +1,79 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+$PopB4Smtp$.php
+file
+
+
+
+
+2010-04-19T19:48:28.000000Z
+f1e56db17517beeee9432bca9d1091f2
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+PopB4Smtp
+dir
+
+PLAIN.php
+file
+
+
+
+
+2010-04-19T19:48:28.000000Z
+b596fb21d61db7db51692e5ca048dab3
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+CRAMMD5.php
+file
+
+
+
+
+2010-04-19T19:48:28.000000Z
+fe5ff3f695359b2bda22ebd792f370d1
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+LOGIN.php
+file
+
+
+
+
+2010-04-19T19:48:28.000000Z
+e75dff9d05a8633bf55cab545105002b
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+

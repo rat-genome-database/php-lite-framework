@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Cache
+END
+Disk.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Cache/Disk.php
+END
+OutputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Cache/OutputStream.php
+END
+JointOutputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Cache/JointOutputStream.php
+END
+Memory.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Cache/Memory.php
+END

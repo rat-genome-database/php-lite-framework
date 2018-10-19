@@ -1,0 +1,94 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/magpieRss/magpie/scripts
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+magpie_simple.php
+file
+
+
+
+
+2010-04-19T19:48:32.000000Z
+cdbead3703f0e376507eeb1cfdb6e517
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+magpie_slashbox.php
+file
+
+
+
+
+2010-04-19T19:48:32.000000Z
+099c10a7e73e02af40e2091d721ce8ea
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+smarty_plugin
+dir
+
+README
+file
+
+
+
+
+2010-04-19T19:48:32.000000Z
+773220e3985d1e703905b2ff811e35ad
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+templates
+dir
+
+magpie_debug.php
+file
+
+
+
+
+2010-04-19T19:48:32.000000Z
+434b3ef7e84fd1160eb671d6c59b159c
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+
+simple_smarty.php
+file
+
+
+
+
+2010-04-19T19:48:32.000000Z
+7b7154b794f5f573274be8ceb7475bdc
+2007-10-03T16:23:29.157403Z
+5
+wesyah234
+

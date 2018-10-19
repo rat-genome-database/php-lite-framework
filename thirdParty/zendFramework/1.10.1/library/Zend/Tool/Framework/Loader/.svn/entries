@@ -1,0 +1,79 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Tool/Framework/Loader
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Interface.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+6520db9a8deb3f8cc1f827c610d82bca
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+IncludePathLoader
+dir
+
+Abstract.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+f8d998f458b180f62b780edbb374494f
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+IncludePathLoader.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+86180e5abe55fcb17fb1303ccc7b56ea
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+BasicLoader.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+26e62f83312544447107b333cb6d9aa3
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

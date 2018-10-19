@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection
+END
+ReturnValue.php
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/ReturnValue.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Exception.php
+END
+Method.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Method.php
+END
+Parameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Parameter.php
+END
+Class.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Class.php
+END
+Function.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Function.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Node.php
+END
+Prototype.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Server/Reflection/Prototype.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator
+END
+$PopB4Smtp$.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator/$PopB4Smtp$.php
+END
+PLAIN.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator/PLAIN.php
+END
+CRAMMD5.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator/CRAMMD5.php
+END
+LOGIN.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Authenticator/LOGIN.php
+END

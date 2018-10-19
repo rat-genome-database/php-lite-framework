@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/Collection.php
+END
+RootDse.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/RootDse.php
+END
+Schema.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/Schema.php
+END
+ChildrenIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/ChildrenIterator.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/Abstract.php
+END

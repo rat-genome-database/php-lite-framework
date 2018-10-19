@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/phplitefw/!svn/ver/112/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/phplitefw/!svn/ver/110/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/LICENSE.TXT
+END
+CHANGELOG.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/phplitefw/!svn/ver/112/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/CHANGELOG.TXT
+END
+unicode_data.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/phplitefw/!svn/ver/110/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/unicode_data.php
+END
+tcpdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/phplitefw/!svn/ver/112/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/tcpdf.php
+END
+barcodes.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/phplitefw/!svn/ver/110/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/barcodes.php
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/phplitefw/!svn/ver/112/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/README.TXT
+END
+htmlcolors.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/phplitefw/!svn/ver/110/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/pdfGeneration/tcpdf/htmlcolors.php
+END

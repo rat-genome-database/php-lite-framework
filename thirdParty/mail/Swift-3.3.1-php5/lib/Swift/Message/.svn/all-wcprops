@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message
+END
+EmbeddedFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/EmbeddedFile.php
+END
+Headers.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/Headers.php
+END
+Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/Encoder.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/Image.php
+END
+MimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/MimeException.php
+END
+Part.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/Part.php
+END
+Mime.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/Mime.php
+END
+Attachment.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Message/Attachment.php
+END

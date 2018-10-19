@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db/DataSet
+END
+DbRowset.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db/DataSet/DbRowset.php
+END
+QueryDataSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db/DataSet/QueryDataSet.php
+END
+DbTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db/DataSet/DbTable.php
+END
+QueryTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db/DataSet/QueryTable.php
+END
+DbTableDataSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db/DataSet/DbTableDataSet.php
+END

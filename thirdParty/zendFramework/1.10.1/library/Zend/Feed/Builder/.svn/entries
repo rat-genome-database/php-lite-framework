@@ -1,0 +1,79 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Feed/Builder
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Exception.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+d934e281d66ad9d2ccd0684d8354dbc3
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Interface.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+4e07ac3b0da445542c6b19d43da34114
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Entry.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+7157e9eebec8727b1f98e23139106110
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Header
+dir
+
+Header.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+d1f6fb17a497b4e64d18ba420c82ccbf
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

@@ -1,0 +1,58 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/OpenId/Provider
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Storage
+dir
+
+User.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+9f41d175bf6eab232f4a9e0458d3afea
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Storage.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+7ee7aab5ed5c4abde3d5f8046b143153
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+User
+dir
+

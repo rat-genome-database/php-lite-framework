@@ -1,0 +1,88 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Analysis/Analyzer/Common
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Text
+dir
+
+TextNum
+dir
+
+Utf8
+dir
+
+Utf8Num
+dir
+
+Text.php
+file
+
+
+
+
+2010-04-19T19:48:48.000000Z
+2914833248d91f4dd43cfd0228e1aa7d
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+TextNum.php
+file
+
+
+
+
+2010-04-19T19:48:48.000000Z
+c679eeab217e442c7fa6277a241affc1
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Utf8.php
+file
+
+
+
+
+2010-04-19T19:48:48.000000Z
+2dc1058043631eada4b7ec4f86190766
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Utf8Num.php
+file
+
+
+
+
+2010-04-19T19:48:48.000000Z
+49d6cc4500464e93c65fac34ce6c13a2
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

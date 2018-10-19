@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests
+END
+test-php5.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-php5.php
+END
+test-datadict.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-datadict.php
+END
+benchmark.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/benchmark.php
+END
+xmlschema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/xmlschema.xml
+END
+test-xmlschema.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-xmlschema.php
+END
+time.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/time.php
+END
+testdatabases.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testdatabases.inc.php
+END
+testmssql.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testmssql.php
+END
+testoci8cursor.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testoci8cursor.php
+END
+test2.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test2.php
+END
+test3.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test3.php
+END
+testoci8.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testoci8.php
+END
+test4.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test4.php
+END
+testcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testcache.php
+END
+test5.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test5.php
+END
+test-active-recs2.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-active-recs2.php
+END
+test-active-record.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-active-record.php
+END
+testpaging.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testpaging.php
+END
+testsessions.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testsessions.php
+END
+test-perf.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-perf.php
+END
+client.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/client.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test.php
+END
+test_rs_array.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test_rs_array.php
+END
+test-pgblob.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/test-pgblob.php
+END
+pdo.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/pdo.php
+END
+tmssql.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/tmssql.php
+END
+testgenid.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testgenid.php
+END
+testpear.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/testpear.php
+END
+xmlschema-mssql.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/dbAbstraction/adodb/tests/xmlschema-mssql.xml
+END

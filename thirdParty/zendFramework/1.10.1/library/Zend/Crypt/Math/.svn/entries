@@ -1,0 +1,55 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Crypt/Math
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+BigInteger
+dir
+
+Exception.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+8a562dc5a2a2eed681687ccff127e048
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+BigInteger.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+4fe2dfe1fdab6dc1458818f5195538b8
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

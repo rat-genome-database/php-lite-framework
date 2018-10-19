@@ -1,0 +1,52 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Service/DeveloperGarden/Response/LocalSearch
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+LocalSearchResponse.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+dfb9c8649fa86644bd4d9b9722d38487
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+LocalSearchResponseType.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+33606a2e4de3c3a6c211214a645b99da
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events
+END
+ListenerMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/ListenerMapper.php
+END
+ConnectEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/ConnectEvent.php
+END
+DisconnectEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/DisconnectEvent.php
+END
+SendEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/SendEvent.php
+END
+ConnectListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/ConnectListener.php
+END
+DisconnectListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/DisconnectListener.php
+END
+SendListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/SendListener.php
+END
+CommandEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/CommandEvent.php
+END
+ResponseEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/ResponseEvent.php
+END
+BeforeSendListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/BeforeSendListener.php
+END
+CommandListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/CommandListener.php
+END
+ResponseListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/ResponseListener.php
+END
+Listener.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/Listener.php
+END
+BeforeCommandListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/phplitefw/!svn/ver/37/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/mail/Swift-3.3.1-php5/lib/Swift/Events/BeforeCommandListener.php
+END

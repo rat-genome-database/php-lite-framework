@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Gdata/Calendar
+END
+ListEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Gdata/Calendar/ListEntry.php
+END
+ListFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Gdata/Calendar/ListFeed.php
+END
+EventEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Gdata/Calendar/EventEntry.php
+END
+EventFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Gdata/Calendar/EventFeed.php
+END
+EventQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Gdata/Calendar/EventQuery.php
+END

@@ -1,0 +1,94 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+RootDse
+dir
+
+Schema
+dir
+
+Collection.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+d9f96700aabf45e3a56509b568b77996
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+RootDse.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+7b52e0fff5db265cc17a6750acc86ae3
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Schema.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+9c4cd69eb83c29f5268cfdc603c26a07
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+ChildrenIterator.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+0f4dd6276a040ed81f502044b1240d81
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Abstract.php
+file
+
+
+
+
+2010-04-19T19:48:40.000000Z
+b48f7bb7675f04a71e9259b5ae0b47da
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

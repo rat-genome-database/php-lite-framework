@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene
+END
+TermStreamsPriorityQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/TermStreamsPriorityQueue.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Exception.php
+END
+Document.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Document.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Interface.php
+END
+Proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Proxy.php
+END
+FSMAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/FSMAction.php
+END
+Field.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/Field.php
+END
+LockManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/LockManager.php
+END
+FSM.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/FSM.php
+END
+PriorityQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/PriorityQueue.php
+END
+MultiSearcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Search/Lucene/MultiSearcher.php
+END

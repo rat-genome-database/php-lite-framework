@@ -1,0 +1,73 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Test/PHPUnit/Db
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Metadata
+dir
+
+Operation
+dir
+
+Exception.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+c42cb70c9f6f527bb3eee60b37ae005c
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+DataSet
+dir
+
+Connection.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+1b4aae2bd9ab1351f8c2686864176c05
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+SimpleTester.php
+file
+
+
+
+
+2010-04-19T19:48:46.000000Z
+29ad47bf26ba4897107f992f1f24a2b6
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

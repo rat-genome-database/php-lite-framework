@@ -1,0 +1,55 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Feed/Writer/Renderer/Feed
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Atom
+dir
+
+Atom.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+aaf5929b47ac72cd8f00b792b0ee468e
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Rss.php
+file
+
+
+
+
+2010-04-19T19:48:39.000000Z
+0b62b0a907e571b1ed2ed85839130a33
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

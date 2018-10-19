@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/wsgi.py
+END
+connector.py
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/connector.py
+END
+zope.py
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/zope.py
+END
+fckconnector.py
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/fckconnector.py
+END
+fckutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/fckutil.py
+END
+fckoutput.py
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/fckoutput.py
+END
+htaccess.txt
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/htaccess.txt
+END
+upload.py
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/upload.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/config.py
+END
+fckcommands.py
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svnroot/phplitefw/!svn/ver/49/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/htmlEditor/fckeditor/editor/filemanager/connectors/py/fckcommands.py
+END

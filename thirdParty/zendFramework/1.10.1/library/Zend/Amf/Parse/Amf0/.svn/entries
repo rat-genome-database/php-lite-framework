@@ -1,0 +1,52 @@
+8
+
+dir
+154
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Amf/Parse/Amf0
+https://phplitefw.svn.sourceforge.net/svnroot/phplitefw
+
+
+
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce3f3c-863b-0410-9cb7-fd92b9863517
+
+Serializer.php
+file
+
+
+
+
+2010-04-19T19:48:48.000000Z
+b90f7076c0d590a6d15716dd0b2edc03
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+
+Deserializer.php
+file
+
+
+
+
+2010-04-19T19:48:48.000000Z
+75b3deed959e4dec4b70d83f49b9a9d0
+2010-02-12T18:00:13.233926Z
+151
+wesyah234
+

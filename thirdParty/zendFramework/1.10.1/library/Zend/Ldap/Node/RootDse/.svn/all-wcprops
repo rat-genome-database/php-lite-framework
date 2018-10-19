@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/RootDse
+END
+eDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/RootDse/eDirectory.php
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/RootDse/ActiveDirectory.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Ldap/Node/RootDse/OpenLdap.php
+END

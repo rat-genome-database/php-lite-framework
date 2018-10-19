@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Text/Table/Decorator
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Text/Table/Decorator/Interface.php
+END
+Unicode.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Text/Table/Decorator/Unicode.php
+END
+Ascii.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svnroot/phplitefw/!svn/ver/151/phpLiteFramework/trunk/plf/phpLiteFramework/thirdParty/zendFramework/1.10.1/library/Zend/Text/Table/Decorator/Ascii.php
+END
