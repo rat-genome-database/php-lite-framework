@@ -2905,7 +2905,7 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 	}
 	
 	public function ADORecordSet($queryID) {
-		self::__construct($queryId);
+		self::__construct($queryID);
 	}
 	
 	function getIterator() 
@@ -3894,14 +3894,18 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 		 * Constructor
 		 *
 		 */
-		function ADORecordSet_array($fakeid=1)
+		public function __construct($fakeid=1)
 		{
 		global $ADODB_FETCH_MODE,$ADODB_COMPAT_FETCH;
 		
 			// fetch() on EOF does not delete $this->fields
 			$this->compat = !empty($ADODB_COMPAT_FETCH);
-			$this->ADORecordSet($fakeid); // fake queryID		
+			$this->ADORecordSet($fakeid); // fake queryID
 			$this->fetchMode = $ADODB_FETCH_MODE;
+		}
+		
+		public function ADORecordSet_array($fakeid=1) {
+			self::__construct($fakeid);
 		}
 		
 		function _transpose($addfieldnames=true)
