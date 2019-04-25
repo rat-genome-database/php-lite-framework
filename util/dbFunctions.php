@@ -222,7 +222,7 @@ function &getConnection($dbusername = DBUSERNAME, $dbpassword = DBPASSWORD, $dbn
     return $theConnection;
   }
   else {
-    $theConnection = &NewADOConnection($adodbdriver);
+    $theConnection = NewADOConnection($adodbdriver);
     // force indexing by the field names, override this using setNumFetchMode()
     $theConnection->SetFetchMode(ADODB_FETCH_ASSOC);
 
