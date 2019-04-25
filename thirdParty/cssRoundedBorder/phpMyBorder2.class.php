@@ -188,12 +188,16 @@ class PhpMyBorder{
   var $shadow;       // shadowcolor
   var $stylesheet;   // using stylesheet or not
   
-  function PhpMyBorder($stylesheet = false){
+  public function __construct($stylesheet = false){
     $this->setWidth("100%");           // default width
     $this->setFill("DDEEFF");          // default fillcolor
     $this->setEdge("4444AA");          // default edgecolor
     $this->setShadow("888888");        // default shadowcolor
     $this->stylesheet = $stylesheet;   // using stylesheet (default = false)
+  }
+  
+  public function PhpMyBorder($stylesheet = false){
+	  self::__construct($stylesheet);
   }
   
   function setWidth($value){  

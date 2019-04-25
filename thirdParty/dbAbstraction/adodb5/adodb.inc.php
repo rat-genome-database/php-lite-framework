@@ -430,9 +430,12 @@
 	/**
 	 * Constructor
 	 */
-	function ADOConnection()			
-	{
+	public function __construct() {
 		die('Virtual Class -- cannot instantiate');
+	}
+	
+	public function ADOConnection() {
+		self::__construct();
 	}
 	
 	static function Version()
