@@ -2900,9 +2900,12 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 	 * @param queryID  	this is the queryID returned by ADOConnection->_query()
 	 *
 	 */
-	function ADORecordSet($queryID) 
-	{
+	public function __construct($queryID) {
 		$this->_queryID = $queryID;
+	}
+	
+	public function ADORecordSet($queryID) {
+		self::__construct($queryId);
 	}
 	
 	function getIterator() 
