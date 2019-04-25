@@ -377,7 +377,7 @@ function checkError($dbconn) {
  */
 function executeIgnoreError($statement, $dbname = NULL) {
   $dbconn = getNamedConnection($dbname);
-  $rs = &$dbconn->execute($statement);
+  $rs = $dbconn->execute($statement);
   return $rs;
 }
 
@@ -385,7 +385,7 @@ function executeIgnoreError($statement, $dbname = NULL) {
 
 function selectLimit($statement, $limit, $offset, $dbname = NULL){
   $dbconn = getNamedConnection($dbname);
-  $rs = &$dbconn->selectLimit($statement, $limit, $offset);
+  $rs = $dbconn->selectLimit($statement, $limit, $offset);
   checkError($dbconn);
   return $rs;
 }
@@ -412,7 +412,7 @@ function selectLimit($statement, $limit, $offset, $dbname = NULL){
  */
 function executeQuery($statement, $dbname = NULL){
   $dbconn = getNamedConnection($dbname);
-  $rs = &$dbconn->execute($statement);
+  $rs = $dbconn->execute($statement);
   checkError($dbconn);
   return $rs;
 }
@@ -451,7 +451,7 @@ function execute($statement, $dbname = NULL) {
  */
 function executePrepared($statement, $fields, $dbname = NULL){
   $dbconn = getNamedConnection($dbname);
-  $rs = &$dbconn->execute($statement, $fields);
+  $rs = $dbconn->execute($statement, $fields);
   checkError($dbconn);
   return $rs;
 }
@@ -464,9 +464,9 @@ function executePrepared($statement, $fields, $dbname = NULL){
 function fetchRecordsLimit($sql, $limit, $offset, $dbname = NULL)
 {
   $dbconn = getNamedConnection($dbname);
-  $rs = &$dbconn->SelectLimit($sql, $limit, $offset);
+  $rs = $dbconn->SelectLimit($sql, $limit, $offset);
   checkError($dbconn);
-  $items = &$rs->GetRows();
+  $items = $rs->GetRows();
   checkError($dbconn);
   return $items;
 }
@@ -479,9 +479,9 @@ function fetchRecordsLimit($sql, $limit, $offset, $dbname = NULL)
 function fetchRecords($sql, $dbname = NULL)
 {
   $dbconn = getNamedConnection($dbname);
-  $rs = &$dbconn->Execute($sql);
+  $rs = $dbconn->Execute($sql);
   checkError($dbconn);
-  $items = &$rs->GetRows();
+  $items = $rs->GetRows();
   checkError($dbconn);
   return $items;
 }
@@ -493,7 +493,7 @@ function fetchRecords($sql, $dbname = NULL)
 function fetchRecord($sql, $dbname = NULL)
 {
   $dbconn = getNamedConnection($dbname);
-  $item = &$dbconn->GetRow($sql);
+  $item = $dbconn->GetRow($sql);
   checkError($dbconn);
   return $item;
 }
@@ -518,7 +518,7 @@ function fetchField($sql, $dbname = NULL)
 function getLastInsertId($dbname = NULL)
 {
   $dbconn = getNamedConnection($dbname);
-  $item = &$dbconn->GetOne('select last_insert_id()');
+  $item = $dbconn->GetOne('select last_insert_id()');
   checkError($dbconn);
   return $item;
 }
@@ -536,7 +536,7 @@ function getLastInsertId($dbname = NULL)
 function fetchArrayForSelectField($sql, $dbname = NULL)
 {
   $dbconn = getNamedConnection($dbname);
-  $array = &$dbconn->GetAssoc($sql);
+  $array = $dbconn->GetAssoc($sql);
   checkError($dbconn);
   return $array;
 }
