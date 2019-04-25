@@ -1226,7 +1226,7 @@ SELECT /*+ RULE */ distinct b.column_name
 	}
 	
 	// http://gis.mit.edu/classes/11.521/sqlnotes/referential_integrity.html
-	function MetaForeignKeys($table, $owner=false)
+	function MetaForeignKeys($table, $owner=false, $upper=false)
 	{
 	global $ADODB_FETCH_MODE;
 	
@@ -1322,8 +1322,7 @@ class ADORecordset_oci8 extends ADORecordSet {
 	
 	//var $_arr = false;
 		
-	function ADORecordset_oci8($queryID,$mode=false)
-	{
+	public function __construct($queryID, $mode=false) {
 		if ($mode === false) { 
 			global $ADODB_FETCH_MODE;
 			$mode = $ADODB_FETCH_MODE;
@@ -1342,7 +1341,10 @@ class ADORecordset_oci8 extends ADORecordSet {
 		$this->_queryID = $queryID;
 	}
 
-
+	public function ADORecordset_oci8($queryID, $mode=false) {
+		self::__construct($queryID, $mode);
+	}
+	
 	function Init()
 	{
 		if ($this->_inited) return;
@@ -1547,7 +1549,7 @@ class ADORecordset_oci8 extends ADORecordSet {
 		
 	}
 
-	function MetaType($t,$len=-1)
+	function MetaType($t, $len=-1, $fieldobj = false)
 	{
 		if (is_object($t)) {
 			$fieldobj = $t;
