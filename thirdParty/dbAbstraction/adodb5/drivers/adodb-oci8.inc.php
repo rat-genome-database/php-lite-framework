@@ -1595,8 +1595,8 @@ class ADORecordset_oci8 extends ADORecordSet {
 }
 
 class ADORecordSet_ext_oci8 extends ADORecordSet_oci8 {	
-	function ADORecordSet_ext_oci8($queryID,$mode=false) 
-	{
+	
+	public function __construct($queryID,$mode=false) {
 		if ($mode === false) { 
 			global $ADODB_FETCH_MODE;
 			$mode = $ADODB_FETCH_MODE;
@@ -1611,6 +1611,10 @@ class ADORecordSet_ext_oci8 extends ADORecordSet_oci8 {
 		}
 		$this->adodbFetchMode = $mode;
 		$this->_queryID = $queryID;
+	}
+	
+	public function ADORecordSet_ext_oci8($queryID,$mode=false) {
+		self::__construct($queryID,$mode);
 	}
 	
 	function MoveNext()
