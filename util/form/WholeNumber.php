@@ -35,8 +35,7 @@ class PLF_WholeNumber extends PLF_Element
   var $minValue;
   var $maxValue;
 
-  function PLF_WholeNumber($name, $label, $minValue, $maxValue, $required)
-  {
+  public function __construct($name, $label, $minValue, $maxValue, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     // we put this restriction here because when we attempt to validate that user input is within
     // the min/max value, we must cast to int, and if we're working with numbers bigger than
@@ -51,6 +50,10 @@ class PLF_WholeNumber extends PLF_Element
 
     $this->minValue = $minValue;
     $this->maxValue = $maxValue;
+  }
+
+  public function PLF_WholeNumber($name, $label, $minValue, $maxValue, $required) {
+    self::__construct($name, $label, $minValue, $maxValue, $required);
   }
 
   // MyForm class will set tabindex before calling this method

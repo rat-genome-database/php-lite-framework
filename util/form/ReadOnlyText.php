@@ -33,10 +33,13 @@ require_once 'Element.php';
 class PLF_ReadOnlyText extends PLF_Element
 {
   var $size;
-  function PLF_ReadOnlyText($name, $label, $size)
-  {
+  public function __construct($name, $label, $size) {
     PLF_Element::PLF_Element($name, $label, false);
     $this->size = $size;
+  }
+
+  public function PLF_ReadOnlyText($name, $label, $size) {
+    self::__construct($name, $label, $size);
   }
 
   // MyForm class will set tabindex before calling this method

@@ -176,7 +176,8 @@ class PLF_Form
   }
 
   function addText($name, $label, $size, $maxLength, $required) {
-    $this->addElement(new PLF_Text($name, $label, $size, $maxLength, $required));
+	$v = new PLF_Text($name, $label, $size, $maxLength, $required);
+	$this->addElement($v);
   }
   
   function addNumber($name, $label, $minValue, $maxValue, $required) {

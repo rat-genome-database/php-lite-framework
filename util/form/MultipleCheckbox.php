@@ -34,10 +34,13 @@ class PLF_MultipleCheckbox extends PLF_MultipleSelectionElement
 {
   var $delimiter;
 
-  function PLF_MultipleCheckbox($name, $label, $values, $required, $delimiter)
-  {
+  public function __construct($name, $label, $values, $required, $delimiter) {
     PLF_MultipleSelectionElement::PLF_MultipleSelectionElement($name, $label, $values, $required);
     $this->delimiter = $delimiter;
+  }
+
+  public function PLF_MultipleCheckbox($name, $label, $values, $required, $delimiter) {
+    self::__construct($name, $label, $values, $required, $delimiter);
   }
 
   // MyForm class will set tabindex before calling this method

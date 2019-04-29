@@ -32,9 +32,12 @@ require_once 'Element.php';
 
 class PLF_ReadOnlyLabel extends PLF_Element
 {
-  function PLF_ReadOnlyLabel($name, $label)
-  {
+  public function __construct($name, $label) {
     PLF_Element::PLF_Element($name, $label, false);
+  }
+
+  public function PLF_ReadOnlyLabel($name, $label) {
+    self::__construct($name, $label);
   }
 
   // MyForm class will set tabindex before calling this method

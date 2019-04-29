@@ -34,10 +34,13 @@ class PLF_PaddedNumber extends PLF_Element
 {
   var $numDigits;
 
-  function PLF_PaddedNumber($name, $label, $numDigits, $required)
-  {
+  public function __construct($name, $label, $numDigits, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->numDigits = $numDigits;
+  }
+
+  public function PLF_PaddedNumber($name, $label, $numDigits, $required) {
+    self::__construct($name, $label, $numDigits, $required);
   }
 
   // MyForm class will set tabindex before calling this method

@@ -40,24 +40,18 @@ class PLF_HtmlEditor extends PLF_Element
   var $cols;
   var $maxChars;
     
-  function PLF_HtmlEditor($name, $label, $rows, $cols, $maxChars, $required)
-  {
+  public function __construct($name, $label, $rows, $cols, $maxChars, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->rows = $rows;  
     $this->cols = $cols;  
     $this->maxChars = $maxChars;
   }
 
+  public function PLF_HtmlEditor($name, $label, $rows, $cols, $maxChars, $required) {
+    self::__construct($name, $label, $rows, $cols, $maxChars, $required);
+  }
+
   function render($tabIndex) {
-    //return "<script type=\"text/javascript\"> var oFCKeditor = new FCKeditor( '".$this->name."' ) ;oFCKeditor.BasePath = '".$GLOBALS['FRAMEWORKDIR'].'/thirdParty/htmlEditor/fckeditor/'."';oFCKeditor.Height = ".$this->heightInPixels.";oFCKeditor.Value  = '".jsEscapeString($this->getValue())."' ;oFCKeditor.Create() ;    </script>";
-    
-    
-/*    $fck = new FCKeditor($this->name);
-    $fck->BasePath = $GLOBALS['FRAMEWORKDIR'].'/thirdParty/htmlEditor/fckeditor/';
-    $fck->Width = '100%';
-    $fck->Value = $this->getValue();
-    $fck->Height = $this->heightInPixels;
-    return $fck->CreateHtml();*/
     
     $toReturn = '';
     $toReturn .= '<script language="javascript" type="text/javascript">

@@ -32,9 +32,12 @@ require_once 'Element.php';
 
 class PLF_CoolDate extends PLF_Element
 {
-  function PLF_CoolDate($name, $label, $required)
-  {
+  public function __construct($name, $label, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
+  }
+
+  public function PLF_CoolDate($name, $label, $required) {
+    self::__construct($name, $label, $required);
   }
 
   // MyForm class will set tabindex before calling this method

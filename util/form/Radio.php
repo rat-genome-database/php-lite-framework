@@ -35,12 +35,15 @@ class PLF_Radio extends PLF_Element
   var $values;
   var $delimiter;
 
-  function PLF_Radio($name, $label, $values, $required, $delimiter)
-  {
+  public function __construct($name, $label, $values, $required, $delimiter) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->values = $values;
     $this->delimiter = $delimiter;
 
+  }
+
+  public function PLF_Radio($name, $label, $values, $required, $delimiter) {
+    self::__construct($name, $label, $values, $required, $delimiter);
   }
 
   // MyForm class will set tabindex before calling this method

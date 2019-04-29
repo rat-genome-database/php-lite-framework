@@ -35,11 +35,14 @@ class PLF_Number extends PLF_Element
   var $minValue;
   var $maxValue;
 
-  function PLF_Number($name, $label, $minValue, $maxValue, $required)
-  {
+  public function __construct($name, $label, $minValue, $maxValue, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->minValue = $minValue;
     $this->maxValue = $maxValue;
+  }
+
+  public function PLF_Number($name, $label, $minValue, $maxValue, $required) {
+    self::__construct($name, $label, $minValue, $maxValue, $required);
   }
 
   // MyForm class will set tabindex before calling this method

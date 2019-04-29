@@ -32,10 +32,13 @@ require_once 'Element.php';
 
 class PLF_Checkbox extends PLF_Element
 {
-  function PLF_Checkbox($name, $label)
-  {
+  public function __construct($name, $label) {
     // required doesn't apply to checkboxes
     PLF_Element::PLF_Element($name, $label, false);
+  }
+
+  public function PLF_Checkbox($name, $label) {
+    self::__construct($name, $label);
   }
 
   // MyForm class will set tabindex before calling this method

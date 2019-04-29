@@ -32,9 +32,12 @@ require_once 'Element.php';
 
 class PLF_Hidden extends PLF_Element
 {
-  function PLF_Hidden($name)
-  {
+  public function __construct($name) {
     PLF_Element::PLF_Element($name, '', false);
+  }
+
+  public function PLF_Hidden($name) {
+    self::__construct($name);
   }
 
   // MyForm class will set tabindex before calling this method

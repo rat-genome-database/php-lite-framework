@@ -34,10 +34,13 @@ class PLF_FileUpload extends PLF_Element
 {
   var $maxFileSizeBytes;
 
-  function PLF_FileUpload($name, $label, $maxFileSizeBytes, $required)
-  {
+  public function __construct($name, $label, $maxFileSizeBytes, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->maxFileSizeBytes = $maxFileSizeBytes;
+  }
+
+  public function PLF_FileUpload($name, $label, $maxFileSizeBytes, $required) {
+    self::__construct($name, $label, $maxFileSizeBytes, $required);
   }
 
   // MyForm class will set tabindex before calling this method

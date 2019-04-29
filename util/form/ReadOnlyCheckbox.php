@@ -33,10 +33,13 @@ require_once 'Element.php';
 class PLF_ReadOnlyCheckbox extends PLF_Element
 {
   var $size;
-  function PLF_ReadOnlyCheckbox($name, $label, $size)
-  {
+  public function __construct($name, $label, $size) {
     PLF_Element::PLF_Element($name, $label, false);
     $this->size = $size;
+  }
+
+  public function PLF_ReadOnlyCheckbox($name, $label, $size) {
+    self::__construct($name, $label, $size);
   }
 
   // MyForm class will set tabindex before calling this method
