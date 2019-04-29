@@ -35,11 +35,14 @@ class PLF_Password extends PLF_Element
   var $maxlength;
   var $size;
 
-  function PLF_Password($name, $label, $size, $maxlength, $required)
-  {
+  public function __construct($name, $label, $size, $maxlength, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->maxlength = $maxlength;  
     $this->size = $size;  
+  }
+
+  public function PLF_Password($name, $label, $size, $maxlength, $required) {
+    self::__construct($name, $label, $size, $maxlength, $required);
   }
 
   // MyForm class will set tabindex before calling this method

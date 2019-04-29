@@ -41,11 +41,14 @@ class PLF_Element
   var $attribute;
 
 
-  function PLF_Element($name, $label, $required)
-  {
+  public function __construct($name, $label, $required) {
     $this->name = $name;
     $this->label = $label;
     $this->required = $required;
+  }
+
+  public function PLF_Element($name, $label, $required) {
+    self::__construct($name, $label, $required);
   }
 
   function setAttribute($attribute) {

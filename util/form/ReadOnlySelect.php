@@ -35,11 +35,14 @@ class PLF_ReadOnlySelect extends PLF_Element
   var $values;
   var $size;
 
-  function PLF_ReadOnlySelect($name, $label, $values, $size)
-  {
+  public function __construct($name, $label, $values, $size) {
     PLF_Element::PLF_Element($name, $label, false);
     $this->values = $values;
     $this->size = $size;
+  }
+
+  public function PLF_ReadOnlySelect($name, $label, $values, $size) {
+    self::__construct($name, $label, $values, $size);
   }
 
   // MyForm class will set tabindex before calling this method

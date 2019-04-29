@@ -35,10 +35,13 @@ class PLF_ReportingMultipleSelect extends PLF_MultipleSelectionElement
 {
   var $size;
 
-  function PLF_ReportingMultipleSelect($name, $label, $values, $size, $required)
-  {
+  public function __construct($name, $label, $values, $size, $required) {
     PLF_MultipleSelectionElement::PLF_MultipleSelectionElement($name, $label, $values, $required);
     $this->size = $size;
+  }
+
+  public function PLF_ReportingMultipleSelect($name, $label, $values, $size, $required) {
+    self::__construct($name, $label, $values, $size, $required);
   }
 
   // MyForm class will set tabindex before calling this method

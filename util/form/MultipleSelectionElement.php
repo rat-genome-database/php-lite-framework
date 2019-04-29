@@ -34,10 +34,13 @@ class PLF_MultipleSelectionElement extends PLF_Element
 {
   var $values;
 
-  function PLF_MultipleSelectionElement($name, $label, $values, $required)
-  {
+  public function __construct($name, $label, $values, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->values = $values;
+  }
+
+  public function PLF_MultipleSelectionElement($name, $label, $values, $required) {
+    self::__construct($name, $label, $values, $required);
   }
 
   function validate() {

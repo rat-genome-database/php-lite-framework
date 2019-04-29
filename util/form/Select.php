@@ -35,17 +35,19 @@ class PLF_Select extends PLF_Element
   var $values;
   var $onChange;
 
-  function PLF_Select($name, $label, $values, $required, $onChange)
-  {
+  public function __construct($name, $label, $values, $required, $onChange) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->onChange = $onChange;
   //  $this->values = $values;
   //  $this->values[''] = ''; // always will want an empty element in a select dropdown
 
-  // changed this so that the empty element we add will be at the top of the list
-  // not the bottom
+  // changed this so that the empty element we add will be at the top of the list not the bottom
     $empty = array(''=>'');
     $this->values = $empty + $values;
+  }
+
+  public function PLF_Select($name, $label, $values, $required, $onChange) {
+    self::__construct($name, $label, $values, $required, $onChange);
   }
 
   // MyForm class will set tabindex before calling this method

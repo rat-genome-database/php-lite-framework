@@ -36,12 +36,15 @@ class PLF_Textarea extends PLF_Element
   var $cols;
   var $maxChars;
     
-  function PLF_Textarea($name, $label, $rows, $cols, $maxChars, $required)
-  {
+  public function __construct($name, $label, $rows, $cols, $maxChars, $required) {
     PLF_Element::PLF_Element($name, $label, $required);
     $this->rows = $rows;  
     $this->cols = $cols;  
     $this->maxChars = $maxChars;
+  }
+
+  public function PLF_Textarea($name, $label, $rows, $cols, $maxChars, $required) {
+    self::__construct($name, $label, $rows, $cols, $maxChars, $required);
   }
 
   // MyForm class will set tabindex before calling this method

@@ -115,10 +115,8 @@ class PLF_Form
   $method (POST, or GET) use POST for updates/inserts, use GET for read only transactions
   this allows browsers to utilize the back button to return to search results without getting
   warnings about POST'ing data more than once.
-  
   **/
-  function PLF_Form($submitButtonText, $method, $module, $func, $formName)
-  {
+  public function __construct($submitButtonText, $method, $module, $func, $formName) {
     static $formNumber;
     $formNumber += 1;
     $this->tabIndex = 1000 * $formNumber;
@@ -129,6 +127,10 @@ class PLF_Form
     $this->formName = $formName;
   }
   
+  public function PLF_Form($submitButtonText, $method, $module, $func, $formName) {
+    self::__construct($submitButtonText, $method, $module, $func, $formName);
+  }
+
   function setUseCheckboxes() {
     $this->useCheckboxes = true;
   }
