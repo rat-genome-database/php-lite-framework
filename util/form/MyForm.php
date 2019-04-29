@@ -181,62 +181,75 @@ class PLF_Form
   }
   
   function addNumber($name, $label, $minValue, $maxValue, $required) {
-    $this->addElement(new PLF_Number($name, $label, $minValue, $maxValue, $required));
+	$v = new PLF_Number($name, $label, $minValue, $maxValue, $required);
+    $this->addElement($v);
   }
 
   function addWholeNumber($name, $label, $minValue, $maxValue, $required) {
-    $this->addElement(new PLF_WholeNumber($name, $label, $minValue, $maxValue, $required));
+	$v = new PLF_WholeNumber($name, $label, $minValue, $maxValue, $required);
+    $this->addElement($v);
   }
 
   function addPaddedNumber($name, $label, $numDigits, $required) {
-    $this->addElement(new PLF_PaddedNumber($name, $label, $numDigits, $required));
+	$v = new PLF_PaddedNumber($name, $label, $numDigits, $required);
+    $this->addElement($v);
   }
 
   function addFileUpload($name, $label, $maxFileSizeBytes, $required) {
-    $this->addElement(new PLF_FileUpload($name, $label, $maxFileSizeBytes, $required));
+	$v = new PLF_FileUpload($name, $label, $maxFileSizeBytes, $required);
+    $this->addElement($v);
     $this->haveFileUpload = true;
   }
 
   function addTextarea($name, $label, $rows, $cols, $maxchars, $required) {
-    $this->addElement(new PLF_Textarea($name, $label, $rows, $cols, $maxchars, $required));
+	$v = new PLF_Textarea($name, $label, $rows, $cols, $maxchars, $required);
+    $this->addElement($v);
     $this->haveTextArea = true;
   }
 
   function addHtmlEditor($name, $label, $rows, $cols, $maxChars, $required) {
-    $this->addElement(new PLF_HtmlEditor($name, $label, $rows, $cols, $maxChars, $required));
+	$v = new PLF_HtmlEditor($name, $label, $rows, $cols, $maxChars, $required);
+    $this->addElement($v);
     $this->haveHtmlEditor = true;
   }
 
   function addHidden($name, $value = NULL) {
-    $this->addElement(new PLF_Hidden($name));
+	$v = new PLF_Hidden($name);
+    $this->addElement($v);
     if (isset($value)) {
       $this->setDefault($name, $value);
     }
   }
 
   function addReadOnlyText($name, $label, $size) {
-    $this->addElement(new PLF_ReadOnlyText($name, $label, $size));
+	$v = new PLF_ReadOnlyText($name, $label, $size);
+    $this->addElement($v);
   }
 
   function addReadOnlyCheckbox($name, $label, $size) {
-    $this->addElement(new PLF_ReadOnlyCheckbox($name, $label, $size));
+	$v = new PLF_ReadOnlyCheckbox($name, $label, $size);
+    $this->addElement($v);
   }
 
   function addPassword($name, $label, $maxlength, $size, $required) {
-    $this->addElement(new PLF_Password($name, $label, $maxlength, $size, $required));
+	$v = new PLF_Password($name, $label, $maxlength, $size, $required);
+    $this->addElement($v);
   }
 
   function addCoolDate($name, $label, $required) {
-    $this->addElement(new PLF_CoolDate($name, $label, $required));
+	$v = new PLF_CoolDate($name, $label, $required);
+    $this->addElement($v);
     $this->coolDateNames[] = $name;
   }
 
   function addSelect($name, $label, $values, $required, $onChange = NULL) {
-    $this->addElement(new PLF_Select($name, $label, $values, $required, $onChange));
+	$v = new PLF_Select($name, $label, $values, $required, $onChange);
+    $this->addElement($v);
   }
   
   function addReadOnlySelect($name, $label, $values, $size) {
-    $this->addElement(new PLF_ReadOnlySelect($name, $label, $values, $size));
+    $v = new PLF_ReadOnlySelect($name, $label, $values, $size);
+    $this->addElement($v);
   }
 
   /**
@@ -245,7 +258,8 @@ class PLF_Form
    * See addReportingMultipleSelect and addCoolMultipleSelect
    */
   function addMultipleSelect($name, $label, $values, $size, $required) {
-    $this->addElement(new PLF_MultipleSelect($name, $label, $values, $size, $required));
+	$v = new PLF_MultipleSelect($name, $label, $values, $size, $required);
+    $this->addElement($v);
   }
   
   /**
@@ -259,7 +273,8 @@ class PLF_Form
    * See addMultipleSelect and addCoolMultipleSelect
    */
   function addReportingMultipleSelect($name, $label, $values, $size, $required) {
-    $this->addElement(new PLF_ReportingMultipleSelect($name, $label, $values, $size, $required));
+	$v = new PLF_ReportingMultipleSelect($name, $label, $values, $size, $required);
+    $this->addElement($v);
     $this->haveReportingMultipleSelect = true;
   }
   
@@ -291,24 +306,29 @@ class PLF_Form
    * See addReportingMultipleSelect() and addMultipleSelect()
    */
   function addCoolMultipleSelect($name, $label, $values, $size, $required) {
-    $this->addElement(new PLF_CoolMultipleSelect($name, $label, $values, $size, $required));
+	$v = new PLF_CoolMultipleSelect($name, $label, $values, $size, $required);
+    $this->addElement($v);
     $this->haveCoolMultipleSelect = true;
   }
 
   function addMultipleCheckbox($name, $label, $values, $required, $delimiter = '<br/>') {
-    $this->addElement(new PLF_MultipleCheckbox($name, $label, $values, $required, $delimiter));
+	$v = new PLF_MultipleCheckbox($name, $label, $values, $required, $delimiter);
+    $this->addElement($v);
   }
 
   function addRadio($name, $label, $values, $required, $delimiter = '<br/>') {
-    $this->addElement(new PLF_Radio($name, $label, $values, $required, $delimiter));
+	$v = new PLF_Radio($name, $label, $values, $required, $delimiter);
+    $this->addElement($v);
   }
 
   function addCheckbox($name, $label) {
-    $this->addElement(new PLF_Checkbox($name, $label));
+	$v = new PLF_Checkbox($name, $label);
+    $this->addElement($v);
   }
   
   function addReadOnlyLabel($name, $label) {
-    $this->addElement(new PLF_ReadOnlyLabel($name, $label));
+	$v = new PLF_ReadOnlyLabel($name, $label);
+    $this->addElement($v);
   }
 
   /**

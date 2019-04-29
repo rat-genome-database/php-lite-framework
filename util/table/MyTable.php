@@ -58,10 +58,14 @@ class PLF_Table {
   // construct a table
   // $heading can be a series of strings to be used as the heading of the table
   // or an array of strings
-  function PLF_Table($heading = null) {
+  public function __construct($heading = null) {
     $this->heading = $heading;
     $this->numCells = count($heading); // save off count for the spacer
     
+  }
+
+  public function PLF_Table($heading = null) {
+    self::__construct($heading);
   }
 
   // set the attributes of the table
