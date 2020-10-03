@@ -76,10 +76,8 @@ class PLF_Form
   var $elements;
 
   var $tabIndex; // for creating tabindex for the IE bug
-  var $coolDateNames; // array of cooldate names,
-                      // for  generating
-                      //the javascript at the end
-                      // of the form
+  var $coolDateNames = array(); // array of cooldate names,
+                      // for  generating the javascript at the end of the form
   var $haveReportingMultipleSelect = false; // holds whether we've added any "reporting"
                                             // type multiple selects
   var $haveCoolMultipleSelect = false; // holds whether we've added any "cool"
@@ -99,7 +97,7 @@ class PLF_Form
                           // easy for the user to change the value (like for a search form when
                           // they may want to type a new search term without manually selecting
                           // the prev search term
-  var $spellCheckFieldNames; // array of field names to generate spell checking code for
+  var $spellCheckFieldNames = array(); // array of field names to generate spell checking code for
                              // using http://spellerpages.sourceforge.net/
 
   var $confirmText;
