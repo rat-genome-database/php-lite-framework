@@ -2644,9 +2644,9 @@ function cleanArray($arrayToClean) {
 
   reset($arrayToClean);
   foreach ( $arrayToClean as $key=>$value ) {
-    if (get_magic_quotes_gpc()) {
-      pnStripslashes($value);
-    }
+    //if (get_magic_quotes_gpc()) {
+    //  pnStripslashes($value);
+    //}
     $resarray[$key] = preg_replace($search, $replace, $value);
   }
   return $resarray;
@@ -2976,9 +2976,9 @@ function pnVarPrepForOS()
         $ourvar = preg_replace($search, $replace, $ourvar);
 
         // Prepare var
-        if (!get_magic_quotes_runtime()) {
+        //if (!get_magic_quotes_runtime()) {
             $ourvar = addslashes($ourvar);
-        }
+        //}
 
         // Add to array
         array_push($resarray, $ourvar);
