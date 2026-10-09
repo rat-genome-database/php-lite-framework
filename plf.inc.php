@@ -149,6 +149,11 @@ function plfIncludeStage2($projectDir) {
   }
 
   define('ADODB_DIR', dirname(__FILE__).'/thirdParty/dbAbstraction/adodb5'); // adodb instructions require this
+  // upper-case column names in result rows, as Oracle returns them; the PostgreSQL driver
+  // otherwise returns them in lower case
+  if (!defined('ADODB_ASSOC_CASE')) {
+    define('ADODB_ASSOC_CASE', 1);
+  }
   require ADODB_DIR.'/adodb.inc.php';
   
   // PLF designed wrapper functions around the ADOdb database abstraction library

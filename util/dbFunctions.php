@@ -86,7 +86,36 @@ function prepare($sql, $dbname = NULL) {
 
 
 function getSeq($seqName, $dbname = NULL) {
+  $dbconn = getNamedConnection($dbname);
+  if (isPostgres($dbconn)) {
+    return fetchField("select nextval('$seqName')", $dbname);
+  }
   return fetchField("select $seqName.nextval from dual", $dbname);
+}
+
+function isPostgres($dbconn) {
+  return strpos($dbconn->databaseType, 'postgres') === 0;
+}
+
+/**
+ * Give a new connection the framework's MM/DD/YYYY date convention before it connects.
+ * Oracle: the NLS_DATE_FORMAT session setting covers dates going in and out.
+ * PostgreSQL: results are reformatted by the driver (resultDateFormat), and
+ * 'MDY' input order is set after connecting (see setSessionDateStyle).
+ */
+function setDateFormat($dbconn) {
+  if (isPostgres($dbconn)) {
+    $dbconn->resultDateFormat = 'm/d/Y';
+  }
+  else {
+    $dbconn->NLS_DATE_FORMAT = 'MM/DD/YYYY';
+  }
+}
+
+function setSessionDateStyle($dbconn) {
+  if (isPostgres($dbconn)) {
+    $dbconn->Execute("SET DateStyle TO 'ISO, MDY'");
+  }
 }
 
 /**
@@ -231,7 +260,7 @@ function &getConnection($dbusername = DBUSERNAME, $dbpassword = DBPASSWORD, $dbn
     // will set the default date format for all inbound and outbound
     // date formats
     // This is the same format we use for the date popup, so all is well
-    $theConnection->NLS_DATE_FORMAT = 'MM/DD/YYYY';
+    setDateFormat($theConnection);
     // this call may trigger a warning
     if (USE_PERSISTENT_DB_CONNECT) {
       $return = $theConnection->PConnect($dbhostname, $dbusername, $dbpassword, $dbname);
@@ -254,7 +283,7 @@ function &getConnection($dbusername = DBUSERNAME, $dbpassword = DBPASSWORD, $dbn
       // sleep 1 second, just to give it a sec to breathe...
       sleep(1);
       $theConnection = NewADOConnection($adodbdriver);
-      $theConnection->NLS_DATE_FORMAT = 'MM/DD/YYYY';
+      setDateFormat($theConnection);
       if (USE_PERSISTENT_DB_CONNECT) {
         $return = $theConnection->PConnect($dbhostname, $dbusername, $dbpassword, $dbname);
       }
@@ -278,6 +307,7 @@ function &getConnection($dbusername = DBUSERNAME, $dbpassword = DBPASSWORD, $dbn
     else {
 //      trigger_error('dont log this , success on first connect', E_USER_WARNING);
     }
+    setSessionDateStyle($theConnection);
     $theConnection->debug = DB_DEBUG_ON;
     $GLOBALS[$globalsIndexName] = &$theConnection;
     return $theConnection;

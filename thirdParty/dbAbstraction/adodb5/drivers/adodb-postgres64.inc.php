@@ -68,6 +68,9 @@ class ADODB_postgres64 extends ADOConnection{
         select viewname,'V' from pg_views where viewname not like 'pg\_%'";
 	//"select tablename from pg_tables where tablename not like 'pg_%' order by 1";
 	var $isoDates = true; // accepts dates in ISO format
+	// PHP date() format applied to date/timestamp columns in results, e.g. 'm/d/Y' to reproduce
+	// Oracle's NLS_DATE_FORMAT; false returns the server's text unchanged
+	var $resultDateFormat = false;
 	var $sysDate = "CURRENT_DATE";
 	var $sysTimeStamp = "CURRENT_TIMESTAMP";
 	var $blobEncodeType = 'C';
@@ -117,9 +120,12 @@ WHERE relkind in ('r','v') AND (c.relname='%s' or c.relname = lower('%s'))
 	// to know what the concequences are. The other values are correct (wheren't in 0.94)
 	// -- Freek Dijkstra 
 
-	function ADODB_postgres64() 
-	{
+	public function __construct() {
 	// changes the metaColumnsSQL, adds columns: attnum[6]
+	}
+
+	public function ADODB_postgres64() {
+		self::__construct();
 	}
 	
 	function ServerInfo()
@@ -584,7 +590,7 @@ select viewname,'V' from pg_views where viewname like $mask";
 		
 	}
 
-	  function MetaIndexes ($table, $primary = FALSE)
+	  function MetaIndexes ($table, $primary = FALSE, $owner = false)
       {
          global $ADODB_FETCH_MODE;
                 
@@ -871,10 +877,14 @@ WHERE (c2.relname=\'%s\' or c2.relname=lower(\'%s\'))';
 
 class ADORecordSet_postgres64 extends ADORecordSet{
 	var $_blobArr;
+	var $_dateArr;
 	var $databaseType = "postgres64";
 	var $canSeek = true;
-	function ADORecordSet_postgres64($queryID,$mode=false) 
-	{
+	public function ADORecordSet_postgres64($queryID,$mode=false) {
+		self::__construct($queryID,$mode);
+	}
+
+	public function __construct($queryID,$mode=false) {
 		if ($mode === false) { 
 			global $ADODB_FETCH_MODE;
 			$mode = $ADODB_FETCH_MODE;
@@ -912,6 +922,14 @@ class ADORecordSet_postgres64 extends ADORecordSet{
 		for ($i=0, $max = $this->_numOfFields; $i < $max; $i++) {  
 			if (pg_fieldtype($qid,$i) == 'bytea') {
 				$this->_blobArr[$i] = pg_fieldname($qid,$i);
+			}
+		}
+		// cache date columns when the connection asks for a result date format
+		if (!empty($this->connection->resultDateFormat))
+		for ($i=0, $max = $this->_numOfFields; $i < $max; $i++) {
+			$t = pg_fieldtype($qid,$i);
+			if ($t == 'timestamp' || $t == 'timestamptz' || $t == 'date') {
+				$this->_dateArr[$i] = pg_fieldname($qid,$i);
 			}
 		}
 	}
@@ -968,6 +986,20 @@ class ADORecordSet_postgres64 extends ADORecordSet{
 		}
 	}
 	
+	// reformat date/timestamp values with the connection's resultDateFormat
+	function _fixdates()
+	{
+		$fmt = $this->connection->resultDateFormat;
+		foreach($this->_dateArr as $k => $v) {
+			if ($this->fetchMode == PGSQL_NUM || $this->fetchMode == PGSQL_BOTH) {
+				if (isset($this->fields[$k])) $this->fields[$k] = date($fmt, strtotime($this->fields[$k]));
+			}
+			if ($this->fetchMode == PGSQL_ASSOC || $this->fetchMode == PGSQL_BOTH) {
+				if (isset($this->fields[$v])) $this->fields[$v] = date($fmt, strtotime($this->fields[$v]));
+			}
+		}
+	}
+
 	// 10% speedup to move MoveNext to child class
 	function MoveNext() 
 	{
@@ -977,6 +1009,7 @@ class ADORecordSet_postgres64 extends ADORecordSet{
 				$this->fields = @pg_fetch_array($this->_queryID,$this->_currentRow,$this->fetchMode);
 				if (is_array($this->fields) && $this->fields) {
 					if (isset($this->_blobArr)) $this->_fixblobs();
+					if (isset($this->_dateArr)) $this->_fixdates();
 					return true;
 				}
 			}
@@ -995,6 +1028,7 @@ class ADORecordSet_postgres64 extends ADORecordSet{
 		$this->fields = @pg_fetch_array($this->_queryID,$this->_currentRow,$this->fetchMode);
 		
 		if ($this->fields && isset($this->_blobArr)) $this->_fixblobs();
+		if ($this->fields && isset($this->_dateArr)) $this->_fixdates();
 			
 		return (is_array($this->fields));
 	}
