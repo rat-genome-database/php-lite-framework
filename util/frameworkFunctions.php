@@ -1766,10 +1766,12 @@ function getBacktraceFormatted () {
  * Note: as of 9/2007, this was changed to just log without specifying
  * a filename, thus going to the webserver's error log.
  */
-function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars)
+// $vars ($errcontext) is no longer passed since PHP 8, so it must be optional
+function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars = null)
 {
   $dt = date("Y-m-d H:i:s O");
-  if ($errno == E_STRICT) {
+  // 2048 is E_STRICT; the constant itself is deprecated since PHP 8.4
+  if ($errno == 2048) {
     // ignore E_STRICT for now...
     return;
   }
@@ -1802,7 +1804,7 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars)
              E_USER_ERROR      => "Error",
              E_USER_WARNING    => "Warning",
              E_USER_NOTICE    => "Notice",
-             E_STRICT          => "Runtime Notice"
+             2048              => "Runtime Notice"
              );
     $refer = 'unknown';
     if (isset($_SERVER['HTTP_REQUEST'])) {
