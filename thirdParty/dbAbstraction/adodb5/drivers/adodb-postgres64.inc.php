@@ -146,7 +146,7 @@ WHERE relkind in ('r','v') AND (c.relname='%s' or c.relname = lower('%s'))
 	// get the last id - never tested
 	function pg_insert_id($tablename,$fieldname)
 	{
-		$result=pg_exec($this->_connectionID, "SELECT last_value FROM ${tablename}_${fieldname}_seq");
+		$result=pg_exec($this->_connectionID, "SELECT last_value FROM {$tablename}_{$fieldname}_seq");
 		if ($result) {
 			$arr = @pg_fetch_row($result,0);
 			pg_freeresult($result);

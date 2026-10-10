@@ -172,7 +172,7 @@
 			
 		// Initialize random number generator for randomizing cache flushes
 		// -- note Since PHP 4.2.0, the seed  becomes optional and defaults to a random value if omitted.
-		 srand(((double)microtime())*1000000);
+		 srand(((float)microtime())*1000000);
 		
 		/**
 		 * ADODB version as a string.
@@ -1273,7 +1273,7 @@
 					// access includes ties in result
 					if ($isaccess) {
 						$sql = preg_replace(
-						'/(^\s*select\s+(distinctrow|distinct)?)/i','\\1 '.$this->hasTop.' '.((integer)$nrows).' ',$sql);
+						'/(^\s*select\s+(distinctrow|distinct)?)/i','\\1 '.$this->hasTop.' '.((int)$nrows).' ',$sql);
 
 						if ($secs2cache != 0) {
 							$ret = $this->CacheExecute($secs2cache, $sql,$inputarr);
@@ -1283,10 +1283,10 @@
 						return $ret; // PHP5 fix
 					} else if ($ismssql){
 						$sql = preg_replace(
-						'/(^\s*select\s+(distinctrow|distinct)?)/i','\\1 '.$this->hasTop.' '.((integer)$nrows).' ',$sql);
+						'/(^\s*select\s+(distinctrow|distinct)?)/i','\\1 '.$this->hasTop.' '.((int)$nrows).' ',$sql);
 					} else {
 						$sql = preg_replace(
-						'/(^\s*select\s)/i','\\1 '.$this->hasTop.' '.((integer)$nrows).' ',$sql);
+						'/(^\s*select\s)/i','\\1 '.$this->hasTop.' '.((int)$nrows).' ',$sql);
 					}
 			} else {
 				$nn = $nrows + $offset;
@@ -1445,7 +1445,7 @@
 		$total = $this->GetOne("select count(*) from $table $where");
 		if (!$total) return false;
 	
-		$midrow = (integer) ($total/2);
+		$midrow = (int) ($total/2);
 		$rs = $this->SelectLimit("select $field from $table $where order by 1",1,$midrow);
 		if ($rs && !$rs->EOF) return reset($rs->fields);
 		return false;
@@ -2735,25 +2735,30 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 		{
 	        $this->rs = $rs;
 	    }
+	    #[\ReturnTypeWillChange]
 	    function rewind() 
 		{
 	    }
 	
+		#[\ReturnTypeWillChange]
 		function valid() 
 		{
 	        return !$this->rs->EOF;
 	    }
 		
+	    #[\ReturnTypeWillChange]
 	    function key() 
 		{
 	        return false;
 	    }
 		
+	    #[\ReturnTypeWillChange]
 	    function current() 
 		{
 	        return false;
 	    }
 		
+	    #[\ReturnTypeWillChange]
 	    function next() 
 		{
 	    }
@@ -2789,6 +2794,7 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 		function FetchRow() {return false;}
 		function FieldCount(){ return 0;}
 		function Init() {}
+		#[\ReturnTypeWillChange]
 		function getIterator() {return new ADODB_Iterator_empty($this);}
 	}
 	
@@ -2809,26 +2815,31 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 		{
 	        $this->rs = $rs;
 	    }
+	    #[\ReturnTypeWillChange]
 	    function rewind() 
 		{
 	        $this->rs->MoveFirst();
 	    }
 	
+		#[\ReturnTypeWillChange]
 		function valid() 
 		{
 	        return !$this->rs->EOF;
 	    }
 		
+	    #[\ReturnTypeWillChange]
 	    function key() 
 		{
 	        return $this->rs->_currentRow;
 	    }
 		
+	    #[\ReturnTypeWillChange]
 	    function current() 
 		{
 	        return $this->rs->fields;
 	    }
 		
+	    #[\ReturnTypeWillChange]
 	    function next() 
 		{
 	        $this->rs->MoveNext();
@@ -2908,6 +2919,7 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 		self::__construct($queryID);
 	}
 	
+	#[\ReturnTypeWillChange]
 	function getIterator() 
 	{
         return new ADODB_Iterator($this);
@@ -4255,10 +4267,10 @@ http://www.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/statements_1
 										$nconnect = true; $persist = true; break;
 					case 'persist':
 					case 'persistent': 	$persist = $v; break;
-					case 'debug':		$obj->debug = (integer) $v; break;
+					case 'debug':		$obj->debug = (int) $v; break;
 					#ibase
 					case 'role':		$obj->role = $v; break;
-					case 'dialect': 	$obj->dialect = (integer) $v; break;
+					case 'dialect': 	$obj->dialect = (int) $v; break;
 					case 'charset':		$obj->charset = $v; $obj->charSet=$v; break;
 					case 'buffers':		$obj->buffers = $v; break;
 					case 'fetchmode':   $obj->SetFetchMode($v); break;

@@ -303,7 +303,7 @@ function plfGo($projectDir) {
   $pageTitle = getPageTitle();
 
   // take care of the page title in the template (generally displayed above the body)
-  $newStuff = str_replace('{{pageTitle}}', getPageTitle(), $newStuff);
+  $newStuff = str_replace('{{pageTitle}}', (string) getPageTitle(), $newStuff);
 
   // take care of the page title with the site name appended (generally used for the <title> attribute
   // of the html pages (here we strip html tags for clarity)
@@ -333,7 +333,7 @@ function plfGo($projectDir) {
 
   // do the body attribute
 
-  $newStuff = str_replace('{{bodyAttribute}}', getBodyAttribute(), $newStuff);
+  $newStuff = str_replace('{{bodyAttribute}}', (string) getBodyAttribute(), $newStuff);
 
   // take care of the transient status message:
   $statusMsg = getSessionVar('statusMsg');

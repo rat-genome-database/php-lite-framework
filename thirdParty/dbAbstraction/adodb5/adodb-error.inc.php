@@ -90,7 +90,7 @@ function adodb_error($provider,$dbType,$errno)
 
 function adodb_error_pg($errormsg)
 {
-	if (is_numeric($errormsg)) return (integer) $errormsg;
+	if (is_numeric($errormsg)) return (int) $errormsg;
     static $error_regexps = array(
             '/(Table does not exist\.|Relation [\"\'].*[\"\'] does not exist|sequence does not exist|class ".+" not found)$/i' => DB_ERROR_NOSUCHTABLE,
             '/Relation [\"\'].*[\"\'] already exists|Cannot insert a duplicate key into (a )?unique index.*/i'      => DB_ERROR_ALREADY_EXISTS,

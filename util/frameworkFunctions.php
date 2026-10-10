@@ -1779,7 +1779,9 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars = null)
     // these are errors *not* generated inside the framework (via logError(), logWarning(), or 
     // logNotice() calls), so just log them )
     $msg = $dt.' '.$filename.':'.$linenum.' '.$errmsg;
-    if (SHOWEVERYTHINGELSETOUSER) {
+    // deprecation notices are for developers: log them, but don't print them into the page
+    $isDeprecation = ($errno == E_DEPRECATED || $errno == E_USER_DEPRECATED);
+    if (SHOWEVERYTHINGELSETOUSER && !$isDeprecation) {
       echo "$msg<hr/>";
     }
     if (LOGEVERYTHINGELSE) {
@@ -2756,7 +2758,7 @@ function pnSecConfirmAuthKey()
 
   if ((md5($partkey)) == $postVars['authid']) {
     // Match - generate new random number for next key and leave happy
-    srand((double)microtime()*1000000);
+    srand((float)microtime()*1000000);
     pnSessionSetVar('rand', rand());
     return true;
   }
